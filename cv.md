@@ -69,3 +69,6 @@ function addTestQuestion(question){
  [Result EPAM](https://ibb.co/zRnbhDX)
 - LeverX English test result: A1
  [Result LeverX](https://ibb.co/bW7zJbZ)
+
+## Video CV
+ [Here is the link to my video CV](https://youtu.be/4o48Y5AsMLw)
