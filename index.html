@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tunyuk Kirill - CV Task</title>
+    <script src="https://kit.fontawesome.com/f28c8705d9.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header">
@@ -14,95 +15,221 @@
             <div class="title_aboutme">
                 <p class="bold">About Me</p>
             </div>
-            <p>Good afternoon. My name is Kirill Tunyuk, i am 28 years old. I am a Leading Engineer in the OPOS group in the largest energy design institute in our country. I thought about changing my specialization when I realized, that further development in my group and my profession is no longer possible. Since last year I am the head of the council of young specialists at my enterprise, I take an active part in the sports and cultural life of employees.</p>
+            <p>Good afternoon. My name is Kirill Tunyuk, i am 28 years old. I am a Lead Engineer in the OPOS group in the largest energy design institute in our country. I thought about changing my specialization when I realized, that further development in my group and my profession is no longer possible. Since last year I am the head of the council of young specialists at my enterprise, I take an active part in the sports and cultural life of employees.</p>
         </div>
         <div class="header_rightbox_profile">
             <div class="photo">
                 <img src="ССЫЛКА НА ФОТКУ" alt="my_profile_photo">
             </div>
         </div>    
-            
+    </header>
+    <main class="main">
+        <div class="main_leftbox">
+            <div class="aboutme_str">
+                <div class="title">
+                    <p class="bold">My strengths:</p>
+                </div>
+                <ul>
+                    <li>
+                        <div class="my_Str">I easily find common language with people</div>
+                    </li>
+                    <li>
+                        <div class="my_Str">Ready to work hard even 24/7</div>
+                    </li>
+                    <li>
+                        <div class="my_Str">Fast and effective in teamwork</div>
+                    </li>
+                    <li>
+                        <div class="my_Str">Good in solving problems</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="code_example">
+                <div class="title">
+                    <p class="bold">My code examples:</p>
+                </div>
+                <p>Part of the code in JS from the final task in course "Intro to IT" LeverX group:</p>
+                <pre>
+                    <code>
+                        #The function that make a list of questions with answers in HTML document.
+                        function addTestQuestion(question){
+                            var li = document.createElement("li");
+                            li.append(question.text,document.createElement("br"));
+                            var ol = document.getElementById("olTeg");
+                            ol.appendChild(li);
+                            question.checkboxes=[];
+                            for (var i=0;i < question.answers.length;++i){
+                              var label = document.createElement("label");
+                              var checkbox = document.createElement("input");
+                              checkbox.type = "checkbox";
+                              var index = question.answers[i];
+                              label.append(checkbox, index,document.createElement("br");
+                              li.appendChild(label);
+                              question.checkboxes.push(checkbox);
+                            }
+                         }
+                    </code>
+                </pre>
+            </div>
+            <div class="code_exp">
+                <div class="title">
+                    <p class="bold">Coding experience:</p>
+                </div>
+                <ul>
+                    <li><a href="https://www.introit.leverxpeople.by/">Intro to It course(HTML&JS basics)</a></li>
+                    <li><a href="https://pythontutor.ru/">Python basics "pythontutor" course</a></li>
+                    <li>Python basics "Sololearn" course</li> 
+                </ul>
+                <p><a href="https://drive.google.com/file/d/1FjONPpCBx_HspEz0ZKHJVN55pP72SYAm/view?usp=sharing">link to the archive with the final task of the course Introduction to It (&quot;Creating and passing test&quot;)</a></p>
+            </div>
+            <div class="Education">
+                <div class="title">
+                    <p class="bold">Education:</p>
+                </div>
+                <ul>
+                    <li>
+                        <a href="https://mgask.org/ru/">Minsk State Architectural Building College (2009 -2013):</a><br>civil engineering and constructions
+                    </li>
+                    <li>
+                        <a href="https://bntu.by/">Belarusian National Technical University (2013-2019):</a><br>Industrial and Civil Engineering (Technology and Organization of Construction Process)
+                    </li>
+                    <li>StreamLine Language School:</li> Pre-Intermediate (CEFR A2+) professional vocabulary in engineering
+                </ul>
+            </div>
+            <div class="my_english">
+                <div class="title">
+                    <p class="bold">English:</p>
+                </div>
+                <ul>
+                    <li>EPAM English test result: A2 (I try to learn English  by reading english books.)
+                        <a href="https://ibb.co/zRnbhDX">Result EPAM</a>
+                    </li>
+                    <li>LeverX English test result: A2
+                        <a href="https://ibb.co/bW7zJbZ">Result LeverX</a>
+                    </li>
+                    <li> StreamLine Language School English test result: Pre-Intermediate (CEFR A2+).</li>
+                </ul>
+            </div>
+            <div class="my_video">
+                <div class="title">
+                    <p class="bold">Video CV:</p>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4o48Y5AsMLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-      
+            </div>
+        </div>
+        <div class="main_rightbox">
+            <div class="contacts">
+                <div class="title">
+                    <p class="bold">Contact info</p>
+                </div>
+                <ul>
+                    <li>
+                      <div class="icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                      </div>
+                      <div class="data">
+                        Minsk, Belarus
+                      </div>
+                    </li>
+                    <li>
+                      <div class="icon">
+                        <i class="fas fa-mobile-alt"></i>
+                      </div>
+                      <div class="data">
+                        +375(29)324-77-20
+                      </div>
+                    </li>
+                    <li>
+                      <div class="icon">
+                        <i class="fas fa-envelope"></i>
+                      </div>
+                      <div class="data">
+                        <a href="mailto:6a6ka_dw@tut.by">6a6ka_dw@tut.by</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="icon">
+                        <i class="fab fa-github"></i>
+                      </div>
+                      <div class="data">
+                        <a href="https://github.com/KirTun">KirTun</a>
+                      </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fab fa-telegram-plane"></i>
+                        </div>
+                        <div class="data">
+                          Kirill Tunyuk
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="myskills">
+                <div class="title">
+                    <p class="bold">skill's</p>
+                </div>
+                <ul>
+                    <li>
+                        <div class="logo">
+                            <img src="https://i.ibb.co/L1jtyfF/ACAD.png" alt="ACAD" width="15" height="15">
+                        </div>
+                        <div class="data">
+                          AutoCAD / NanoCAD
+                        </div>
+                    </li>
+                    <li>
+                        <div class="logo"></div>                   
+                            <img src="https://i.ibb.co/ZHyDdmK/Spds.jpg" alt="Spds" width="30" height="15">
+                        </div>
+                        <div class="data">
+                            SPDS Graphics
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="data">
+                          HTML & CSS (Basics)
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <div class="data">
+                            JavaScript (Basics)
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="data">
+                            Python (Basics)
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fab fa-github-square"></i>
+                        </div>
+                        <div class="data">
+                            Git/GitHub
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="data">
+                            VS Code
+                        </div>
+                    </li>
+                </ul>
+            </div>    
+        </div>
+    </main>           
 </body>
 </html>
-
-
-
-<h2 id="my-contact-info"><strong>My contact info:</strong></h2>
-<ul>
-<li><strong>Phone:</strong> +375 29 324-77-20</li>
-<li><strong>E-mail:</strong> <a href="mailto:6a6ka_dw@tut.by">6a6ka_dw@tut.by</a></li>
-<li><strong>GitHub:</strong> <a href="https://github.com/KirTun">KirTun</a></li>
-<li><strong>Telegram:</strong> Kirill Tunyuk</li>
-</ul>
-<h4 id="my-strengths">My strengths:</h4>
-<ul>
-<li>I easily find common language with people</li>
-<li>Ready to work hard even 24/7</li>
-<li>Fast and effective in teamwork</li>
-<li>Good in solving problems</li>
-</ul>
-<h2 id="my-skills">My skills:</h2>
-<ul>
-<li>AutoCAD</li>
-<li>NanoCAD</li>
-<li>SPDS Graphics</li>
-<li>HTML and CSS (Basics)</li>
-<li>JavaScript (Basics)</li>
-<li>Python (Basics)</li>
-<li>Git/GitHub (intro)</li>
-<li>VS Code</li>
-</ul>
-<h2 id="code-examples">Code examples:</h2>
-<p>Part of the code in JS from the final task in course &quot;Intro to IT&quot; LeverX group:</p>
-<pre><code>#The function that make a list of questions with answers in HTML document.
-
-function addTestQuestion(question){
-  var li = document.createElement(&quot;li&quot;);
-  li.append(question.text,document.createElement(&quot;br&quot;));
-  var ol = document.getElementById(&quot;olTeg&quot;);
-  ol.appendChild(li);
-  question.checkboxes=[];
-  for (var i=0;i&lt;question.answers.length;++i){
-    var label = document.createElement(&quot;label&quot;);
-    var checkbox = document.createElement(&quot;input&quot;);
-    checkbox.type = &quot;checkbox&quot;;
-    var index = question.answers[i];
-    label.append(checkbox, index,document.createElement(&quot;br&quot;);
-    li.appendChild(label);
-    question.checkboxes.push(checkbox);
-  }
-}
-</code></pre>
-<h2 id="coding-experience">Coding experience:</h2>
-<ul>
-<li><a href="https://www.introit.leverxpeople.by/">Intro to It course(HTML&amp;JS basics)</a></li>
-<li><a href="https://pythontutor.ru/">Python basics &quot;pythontutor&quot; course</a></li>
-<li>Python basics &quot;Sololearn&quot; course</li>
-</ul>
-<p><a href="https://drive.google.com/file/d/1FjONPpCBx_HspEz0ZKHJVN55pP72SYAm/view?usp=sharing">link to the archive with the final task of the course Introduction to It (&quot;Creating and passing test&quot;)</a></p>
-<h2 id="education">Education:</h2>
-<p><a href="https://mgask.org/ru/">Minsk State Architectural Building College (2009 -2013):</a></p>
-<ul>
-<li>civil engineering and constructions</li>
-</ul>
-<p><a href="https://bntu.by/">Belarusian National Technical University (2013-2019):</a></p>
-<ul>
-<li>Industrial and Civil Engineering (Technology and Organization of Construction Process)</li>
-</ul>
-<p><a href="https://str.by/">StreamLine Language School:</a></p>
-<ul>
-<li>Pre-Intermediate (CEFR A2+) professional vocabulary in engineering</li>
-</ul>
-<h2 id="english">English</h2>
-<ul>
-<li>StreamLine Language School English test result: Pre-Intermediate (CEFR A2+).</li>
-<li>EPAM English test result: A1 (I try to learn English  by reading english books.)
- <a href="https://ibb.co/zRnbhDX">Result EPAM</a></li>
-<li>LeverX English test result: A1
- <a href="https://ibb.co/bW7zJbZ">Result LeverX</a></li>
-</ul>
-<h2 id="video-cv">Video CV</h2>
-<p> <a href="https://youtu.be/4o48Y5AsMLw">Here is the link to my video CV</a></p>
