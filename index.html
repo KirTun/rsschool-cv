@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tunyuk Kirill - CV Task</title>
+        <link rel="stylesheet" href="css/main.css">
+        <script src="https://kit.fontawesome.com/f28c8705d9.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header_leftbox_aboutme">
+                <h1 id="name">Tunyuk Kiryl</h1>
+                <h3 id="ocupation">(Lead Engineer OPOS group in Belnipienergoprom)</h3>    
+                <div class="title_aboutme">
+                    <p class="bold">About Me</p>
+                    <p class="txtabout">Good afternoon. My name is Kirill Tunyuk, i am 28 years old. I am a Lead Engineer in the OPOS group in the largest energy design institute in our country. I thought about changing my specialization when I realized, that further development in my group and my profession is no longer possible. Since last year I am the head of the council of young specialists at my enterprise, I take an active part in the sports and cultural life of employees.</p>
+                </div> 
+            </div>
+            <div class="header_rightbox_profile">
+                <div class="photo">
+                    <img src="https://i.ibb.co/DWTF3xj/208.jpg" alt="Profile photo">
+                </div>
+            </div>    
+        </header>
+        <main class="main">
+            <div class="main_leftbox">
+                <div class="main_item aboutme_str">
+                    <div class="title">
+                        <p class="bold">My strengths:</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="my_Str">I easily find common language with people</div>
+                        </li>
+                        <li>
+                            <div class="my_Str">Ready to work hard even 24/7</div>
+                        </li>
+                        <li>
+                            <div class="my_Str">Fast and effective in teamwork</div>
+                        </li>
+                        <li>
+                            <div class="my_Str">Good in solving problems</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main_item code_example">
+                    <div class="title">
+                        <p class="bold">My code examples:</p>
+                        <p># Part of the code in JS from the final task in course "Intro to IT" LeverX group:</p>
+                    </div>
+                    <div class="codes">
+                        <code class="funct">
+                            #The function that make a list of questions with answers in HTML document.<br>
+                                function addTestQuestion(question){
+                                    var li = document.createElement("li");
+                                    li.append(question.text,document.createElement("br"));
+                                    var ol = document.getElementById("olTeg");
+                                    ol.appendChild(li);
+                                    question.checkboxes=[];
+                                    for (var i=0;i&lt;question.answers.length;++i){
+                                        var label = document.createElement("label");
+                                        var checkbox = document.createElement("input");
+                                        checkbox.type = "checkbox";
+                                        var index = question.answers[i];
+                                        label.append(checkbox, index,document.createElement("br");
+                                        li.appendChild(label);
+                                        question.checkboxes.push(checkbox);
+                        </code>
+                    </div>
+                </div>
+                <div class="main_item code_exp">
+                    <div class="title">
+                        <p class="bold">Coding experience:</p>
+                    </div>
+                    <ul>
+                        <li><a href="https://www.introit.leverxpeople.by/">Intro to It course(HTML&JS basics)</a></li>
+                        <li><a href="https://pythontutor.ru/">Python basics "pythontutor" course</a></li>
+                        <li>Python basics "Sololearn" course</li> 
+                    </ul>
+                    <p><a href="https://drive.google.com/file/d/1FjONPpCBx_HspEz0ZKHJVN55pP72SYAm/view?usp=sharing">link to the archive with the final task of the course Introduction to It (&quot;Creating and passing test&quot;)</a></p>
+                </div>
+                <div class="main_item Education">
+                    <div class="title">
+                        <p class="bold">Education:</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="https://mgask.org/ru/"><b>Minsk State Architectural Building College (2009 -2013):</b></a><br><i>civil engineering and constructions</i>
+                        </li>
+                        <li>
+                            <a href="https://bntu.by/"><b>Belarusian National Technical University (2013-2019):</b></a><br><i>Industrial and Civil Engineering (Technology and Organization of Construction Process)</i>
+                        </li>
+                        <li><b>StreamLine Language School:</b><br><i>Pre-Intermediate (CEFR A2+) professional vocabulary in engineering</i></li>
+                    </ul>
+                </div>
+                <div class="main_item my_english">
+                    <div class="title">
+                        <p class="bold">English:</p>
+                    </div>
+                    <ul>
+                        <li>EPAM English test result: A2 (I try to learn English  by reading english books.)
+                            <a href="https://ibb.co/zRnbhDX">Result EPAM</a>
+                        </li>
+                        <li>LeverX English test result: A2
+                            <a href="https://ibb.co/bW7zJbZ">Result LeverX</a>
+                        </li>
+                        <li> StreamLine Language School English test result: Pre-Intermediate (CEFR A2+).</li>
+                    </ul>
+                </div>
+                <div class="main_item my_video">
+                    <div class="title">
+                        <p class="bold">Video CV:</p>
+                    </div>
+                    <div class="videoframe">
+                        <iframe width="400" height="225" src="https://www.youtube.com/embed/4o48Y5AsMLw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="main_rightbox">
+                <div class="main_item contacts">
+                    <div class="title">
+                        <p class="bold">Contact info</p>
+                    </div>
+                    <ul>
+                        <li>
+                        <div class="icon">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <div class="data">
+                            Minsk, Belarus
+                        </div>
+                        </li>
+                        <li>
+                        <div class="icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="data">
+                            +375(29)324-77-20
+                        </div>
+                        </li>
+                        <li>
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="data">
+                            <a href="mailto:6a6ka_dw@tut.by">6a6ka_dw@tut.by</a>
+                        </div>
+                        </li>
+                        <li>
+                        <div class="icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="data">
+                            <a href="https://github.com/KirTun">KirTun</a>
+                        </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fab fa-telegram-plane"></i>
+                            </div>
+                            <div class="data">
+                            Kirill Tunyuk
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main_item myskills">
+                    <div class="title">
+                        <p class="bold">skill's</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="data">
+                            HTML & CSS (Basics)
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <div class="data">
+                                JavaScript (Basics)
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="data">
+                                Python (Basics)
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fab fa-github-square"></i>
+                            </div>
+                            <div class="data">
+                                Git/GitHub
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="data">
+                                VS Code
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <img src="https://i.ibb.co/L1jtyfF/ACAD.png" alt="ACAD" width="20" height="20">
+                            </div>
+                            <div class="data">
+                            AutoCAD / NanoCAD
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">                   
+                                <img src="https://i.ibb.co/ZHyDdmK/Spds.jpg" alt="Spds" width="30" height="15">
+                            </div>
+                            <div class="data">
+                                SPDS Graphics
+                            </div>
+                        </li>
+                    </ul>
+                </div>    
+            </div>
+        </main>           
+        <footer class="footer">
+            <div class="apperbox">
+                <ul class="widgetlink">
+                    <li>
+                        <a href="" class="fab fa-github" >GitHub</a>
+                    </li>
+                    <li>
+                        <a href="https://rs.school/js/" class="link" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="rsschool"></a>
+                    </li>
+                    <li>
+                        <a href="https://vk.com/id19133390" target="_blank" class="fab fa-vk">VK</a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/kirill.tyniuk" target="_blank" class="fab fa-facebook">Facebook</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom_footer">
+                <span>&copy; 2021</span>
+                <a href="#name">К верху страницы</a>
+            </div>
+        </footer>
+    </body>
+</html>
